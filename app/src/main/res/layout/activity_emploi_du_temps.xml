@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F5FF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mon emploi du temps"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#214ED3"
+            android:paddingBottom="15dp"/>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnLundi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lundi"/>
+
+                <Button
+                    android:id="@+id/btnMardi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mardi"/>
+
+                <Button
+                    android:id="@+id/btnMercredi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mercredi"/>
+
+                <Button
+                    android:id="@+id/btnJeudi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jeudi"/>
+
+                <Button
+                    android:id="@+id/btnVendredi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vendredi"/>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/txtJour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lundi"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:paddingTop="20dp"
+            android:paddingBottom="12dp"/>
+
+        <!-- Cours 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#E5EDFF"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:id="@+id/txtHoraire1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="08:00 - 10:00"
+                android:textColor="#214ED3"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/txtMatiere1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Développement Android"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:textColor="#222222"
+                android:paddingTop="8dp"/>
+
+            <TextView
+                android:id="@+id/txtSalle1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Salle : B12"
+                android:textSize="15sp"
+                android:textColor="#555555"/>
+
+            <TextView
+                android:id="@+id/txtProf1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Professeur : Mme Salma"
+                android:textSize="15sp"
+                android:textColor="#555555"/>
+
+        </LinearLayout>
+
+        <!-- Cours 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#E5EDFF"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:id="@+id/txtHoraire2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10:15 - 12:00"
+                android:textColor="#214ED3"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/txtMatiere2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bases de données"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:textColor="#222222"
+                android:paddingTop="8dp"/>
+
+            <TextView
+                android:id="@+id/txtSalle2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Salle : A03"
+                android:textSize="15sp"
+                android:textColor="#555555"/>
+
+            <TextView
+                android:id="@+id/txtProf2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Professeur : Mr Ahmed"
+                android:textSize="15sp"
+                android:textColor="#555555"/>
+
+        </LinearLayout>
+
+        <!-- Cours 3 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#E5EDFF"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:id="@+id/txtHoraire3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13:00 - 15:00"
+                android:textColor="#214ED3"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/txtMatiere3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Programmation Java"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:textColor="#222222"
+                android:paddingTop="8dp"/>
+
+            <TextView
+                android:id="@+id/txtSalle3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Salle : C05"
+                android:textSize="15sp"
+                android:textColor="#555555"/>
+
+            <TextView
+                android:id="@+id/txtProf3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Professeur : Mme Ines"
+                android:textSize="15sp"
+                android:textColor="#555555"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
