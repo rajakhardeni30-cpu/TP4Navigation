@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TP4Navigation" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Couleur de la barre d'état, dessinée par le DrawerLayout -->
+        <item name="android:colorPrimaryDark">#1D4ED8</item>
+    </style>
+
+    <style name="Theme.TP4Navigation" parent="Base.Theme.TP4Navigation" />
+</resources>
