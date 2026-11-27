@@ -22,6 +22,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "TP4Navigation"
+rootProject.name = "ISEA Campus"
 include(":app")
  
