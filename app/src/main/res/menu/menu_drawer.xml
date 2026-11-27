@@ -18,6 +18,10 @@
             android:icon="@android:drawable/ic_menu_my_calendar"
             android:title="Mon profil" />
         <item
+            android:id="@+id/nav_student"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Espace Étudiant" />
+        <item
             android:id="@+id/nav_apropos"
             android:icon="@android:drawable/ic_menu_info_details"
             android:title="À propos" />

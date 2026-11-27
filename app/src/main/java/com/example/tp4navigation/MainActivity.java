@@ -51,12 +51,15 @@ public class MainActivity extends AppCompatActivity {
         } else if (id == R.id.nav_cours) {
             afficherFragment(new CoursFragment());
 
-        } else if (id == R.id.nav_emploi) {
-            Intent intent = new Intent(MainActivity.this, EmploiDuTempsActivity.class);
-            startActivity(intent);
+        }   else if (id == R.id.nav_emploi) {
+        Intent intent = new Intent(MainActivity.this, EmploiDuTempsActivity.class);
+        startActivity(intent);
 
         } else if (id == R.id.nav_profil) {
             afficherFragment(new ProfilFragment());
+
+        } else if (id == R.id.nav_student) {
+            afficherFragment(new StudentDashboardFragment());
 
         } else if (id == R.id.nav_apropos) {
             afficherFragment(new AProposFragment());

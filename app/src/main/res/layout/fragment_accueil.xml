@@ -1,144 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F5F3FA"
-    android:fillViewport="true">
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#F5F3FA">
 
-    <LinearLayout
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="20dp">
+        android:text="Bienvenue à ISAE Campus 🎓"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:textColor="#663399"
+        android:gravity="center"
+        android:layout_marginBottom="20dp" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Bienvenue 👋"
-            android:textColor="#663399"
-            android:textSize="28sp"
-            android:textStyle="bold"
-            android:layout_marginTop="15dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Votre espace universitaire"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:textColor="#663399"
+        android:gravity="center"
+        android:layout_marginBottom="18dp" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Bienvenue sur ISAE Campus !"
-            android:textColor="#555555"
-            android:textSize="17sp"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="25dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bienvenue sur ISAE Campus, votre espace numérique dédié à la vie universitaire. Retrouvez facilement vos cours, consultez votre emploi du temps et suivez vos informations académiques dans un seul endroit."
+        android:textSize="17sp"
+        android:textColor="#444444"
+        android:gravity="center"
+        android:lineSpacingExtra="8dp" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Accès rapide"
-            android:textColor="#663399"
-            android:textSize="22sp"
-            android:textStyle="bold"
-            android:layout_marginBottom="15dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apprendre, organiser et réussir ensemble."
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:textColor="#663399"
+        android:gravity="center"
+        android:layout_marginTop="25dp" />
 
-        <!-- Carte Mes cours -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:background="#FFFFFF"
-            android:padding="20dp"
-            android:elevation="4dp"
-            android:layout_marginBottom="15dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="📚"
-                android:textSize="35sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Mes cours"
-                android:textColor="#663399"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                android:layout_marginTop="8dp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Consultez vos matières et vos cours"
-                android:textColor="#666666"
-                android:textSize="15sp"
-                android:layout_marginTop="5dp" />
-        </LinearLayout>
-
-        <!-- Carte Emploi du temps -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:background="#FFFFFF"
-            android:padding="20dp"
-            android:elevation="4dp"
-            android:layout_marginBottom="15dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="📅"
-                android:textSize="35sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Emploi du temps"
-                android:textColor="#663399"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                android:layout_marginTop="8dp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Consultez votre planning"
-                android:textColor="#666666"
-                android:textSize="15sp"
-                android:layout_marginTop="5dp" />
-        </LinearLayout>
-
-        <!-- Carte Mon profil -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:background="#FFFFFF"
-            android:padding="20dp"
-            android:elevation="4dp"
-            android:layout_marginBottom="15dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="👤"
-                android:textSize="35sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Mon profil"
-                android:textColor="#663399"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                android:layout_marginTop="8dp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Consultez vos informations personnelles"
-                android:textColor="#666666"
-                android:textSize="15sp"
-                android:layout_marginTop="5dp" />
-        </LinearLayout>
-
-    </LinearLayout>
-</ScrollView>
+</LinearLayout>
