@@ -1,5 +1,5 @@
 package com.example.tp4navigation;
-
+import com.example.tp4navigation.R;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -23,7 +23,7 @@ public class StudentDashboardFragment extends Fragment {
 
         // Charger l'interface XML de la nouvelle page
         return inflater.inflate(
-                R.layout.fragment_student_dashboard,
+                R.layout.activity_student_dashboard_fragment,
                 container,
                 false
         );
