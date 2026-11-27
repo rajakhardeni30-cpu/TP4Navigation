@@ -10,6 +10,10 @@
             android:icon="@android:drawable/ic_menu_agenda"
             android:title="Mes cours" />
         <item
+            android:id="@+id/nav_emploi"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Emploi du temps" />
+        <item
             android:id="@+id/nav_profil"
             android:icon="@android:drawable/ic_menu_my_calendar"
             android:title="Mon profil" />

@@ -1,6 +1,7 @@
 package com.example.tp4navigation;
 
 import android.os.Bundle;
+import android.content.Intent;
 import android.view.MenuItem;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
@@ -43,15 +44,24 @@ public class MainActivity extends AppCompatActivity {
     // Choisit le fragment qui correspond à l'élément cliqué
     private boolean ouvrirElement(MenuItem element) {
         int id = element.getItemId();
+
         if (id == R.id.nav_accueil) {
             afficherFragment(new AccueilFragment());
+
         } else if (id == R.id.nav_cours) {
             afficherFragment(new CoursFragment());
+
+        } else if (id == R.id.nav_emploi) {
+            Intent intent = new Intent(MainActivity.this, EmploiDuTempsActivity.class);
+            startActivity(intent);
+
         } else if (id == R.id.nav_profil) {
             afficherFragment(new ProfilFragment());
+
         } else if (id == R.id.nav_apropos) {
             afficherFragment(new AProposFragment());
         }
+
         drawerLayout.closeDrawers();
         return true;
     }
