@@ -32,8 +32,8 @@
         android:id="@+id/textEtudiant"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/nom_etudiant"
+        android:text="BC3"
         android:textColor="#D9EAF7"
-        android:textSize="14sp" />
+        android:textSize="40sp" />
 
 </LinearLayout>
